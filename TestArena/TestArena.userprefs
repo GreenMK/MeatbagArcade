@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\PlayerNetworking.cs">
+    <Files>
+      <File FileName="Assets\PlayerNetworking.cs" Line="14" Column="17" />
+      <File FileName="..\New Unity Project\Assets\Photon Unity Networking\Demos\DemoWorker\Scripts\WorkerMenu.cs" Line="1" Column="1" />
+      <File FileName="..\New Unity Project\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs" Line="1" Column="1" />
+      <File FileName="..\New Unity Project\Assets\Photon Unity Networking\Demos\DemoWorker\Scripts\Game\Player\ThirdPersonController.cs" Line="1" Column="1" />
+      <File FileName="..\New Unity Project\Assets\Photon Unity Networking\Demos\DemoWorker\Scripts\Game\Player\ThirdPersonNetwork.cs" Line="1" Column="1" />
+      <File FileName="Assets\CamCont.cs" Line="1" Column="1" />
+      <File FileName="Assets\PlayerController.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
