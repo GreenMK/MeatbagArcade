@@ -17,6 +17,9 @@ public class pushtest : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		if (player == null) {
+			return;
+		}
 		if (go || Input.GetButtonDown ("Fire1")) {
 			if (Vector3.Distance (this.transform.position, player.position) < kickRange) {
 				party.transform.position = player.position;
@@ -36,6 +39,9 @@ public class pushtest : MonoBehaviour {
 		Vector2 horVel = new Vector2 (rBody.velocity.x,rBody.velocity.z);
 		rBody.velocity = new Vector3(horVel.normalized.x*speed,rBody.velocity.y,horVel.normalized.y*speed);
 		Debug.DrawRay(this.transform.position + rBody.velocity.normalized,rBody.velocity);
+		if (player == null) {
+			return;
+		}
 		RaycastHit hitInfo;
 		if(Physics.Raycast (this.transform.position + rBody.velocity.normalized, rBody.velocity,out hitInfo, speed*.02f)){
 			if(hitInfo.collider.tag == "Player"){
