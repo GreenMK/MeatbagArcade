@@ -47,7 +47,9 @@
   <ItemGroup>
      <Compile Include="Assets\BouncerScript.cs" />
      <Compile Include="Assets\CamCont.cs" />
+     <Compile Include="Assets\GameController.cs" />
      <Compile Include="Assets\LookAtTarget.cs" />
+     <Compile Include="Assets\MenuController.cs" />
      <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\CustomTypes.cs" />
      <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Enums.cs" />
      <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Extensions.cs" />
