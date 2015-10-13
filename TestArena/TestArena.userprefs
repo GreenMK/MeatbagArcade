@@ -1,8 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\AudienceScript.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\BouncerScript.cs">
     <Files>
-      <File FileName="Assets\AudienceScript.cs" Line="26" Column="1" />
+      <File FileName="Assets\BouncerScript.cs" Line="25" Column="1" />
+      <File FileName="Assets\AudienceScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\AudienceMemberScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\pushtest.cs" Line="20" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

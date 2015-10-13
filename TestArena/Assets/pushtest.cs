@@ -6,9 +6,12 @@ public class pushtest : MonoBehaviour {
 	public float kickRange = 4f;
 	public float pushAmt;
 	public float speed;
+	public float maxSpeed = 30f;
 	public Transform player;
 	public bool go;
 	public ParticleSystem party;
+
+
 	Rigidbody rBody;
 	// Use this for initialization
 	void Start () {
@@ -32,7 +35,7 @@ public class pushtest : MonoBehaviour {
 
 
 	void FixedUpdate(){
-		speed = Mathf.Max(0f,speed -.02f);
+		speed = Mathf.Clamp(speed -.02f, 0.4f, maxSpeed);
 		Vector2 horVel = new Vector2 (rBody.velocity.x,rBody.velocity.z);
 		rBody.velocity = new Vector3(horVel.normalized.x*speed,rBody.velocity.y,horVel.normalized.y*speed);
 		Debug.DrawRay(this.transform.position + rBody.velocity.normalized,rBody.velocity);
@@ -44,5 +47,7 @@ public class pushtest : MonoBehaviour {
 		}
 	}
 
-
+	public void AddForce(float forceMultiplier) {
+		speed = speed * forceMultiplier;
+	}
 }
