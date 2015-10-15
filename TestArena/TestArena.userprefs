@@ -1,11 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\BouncerScript.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\PerlinScript.cs">
     <Files>
-      <File FileName="Assets\BouncerScript.cs" Line="25" Column="1" />
-      <File FileName="Assets\AudienceScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\AudienceMemberScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\pushtest.cs" Line="20" Column="2" />
+      <File FileName="Assets\PaddleTriggerScript.cs" Line="9" Column="4" />
+      <File FileName="Assets\PaddleScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\CamCont.cs" Line="1" Column="1" />
+      <File FileName="Assets\BouncerScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\BarrierPartScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\PerlinScript.cs" Line="11" Column="20" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

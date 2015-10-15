@@ -47,9 +47,15 @@
   <ItemGroup>
      <Compile Include="Assets\AudienceMemberScript.cs" />
      <Compile Include="Assets\AudienceScript.cs" />
+     <Compile Include="Assets\BallSpawnScript.cs" />
+     <Compile Include="Assets\BarrierBouncerScript.cs" />
+     <Compile Include="Assets\BarrierPartScript.cs" />
      <Compile Include="Assets\BouncerScript.cs" />
      <Compile Include="Assets\CamCont.cs" />
      <Compile Include="Assets\LookAtTarget.cs" />
+     <Compile Include="Assets\PaddleScript.cs" />
+     <Compile Include="Assets\PaddleTriggerScript.cs" />
+     <Compile Include="Assets\PerlinScript.cs" />
      <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\CustomTypes.cs" />
      <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Enums.cs" />
      <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Extensions.cs" />

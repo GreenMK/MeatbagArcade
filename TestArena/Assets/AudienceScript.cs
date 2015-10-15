@@ -10,7 +10,6 @@ public class AudienceScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-
 		if (bleacherType == BLEACHER.straight) {
 			//columns
 			for (int a = 0; a <= 9; a++) {

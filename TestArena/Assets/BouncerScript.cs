@@ -11,11 +11,10 @@ public class BouncerScript : MonoBehaviour {
 	void OnCollisionExit(Collision col) {
 		if (col.gameObject.tag == "Ball") {
 			col.gameObject.GetComponent<pushtest>().AddForce(multiplierForce);
-			Debug.Log("exit");
 			GetComponent<MeshRenderer> ().material = redmat;
+			GetComponent<AudioSource>().Play();
 			Invoke("ResetGreen", redTime);
 		}
-
 	}
 
 	void ResetGreen() {

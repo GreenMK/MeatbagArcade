@@ -15,6 +15,7 @@ public class pushtest : MonoBehaviour {
 	Rigidbody rBody;
 	// Use this for initialization
 	void Start () {
+		player = GameObject.FindGameObjectWithTag ("Player").transform;
 		rBody = GetComponent<Rigidbody> ();
 	}
 	
