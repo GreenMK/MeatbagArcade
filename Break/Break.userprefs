@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\Break\Assets\genWorld.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\genWorld.cs">
     <Files>
-      <File FileName="..\Break\Assets\genWorld.cs" Line="9" Column="3" />
+      <File FileName="Assets\genWorld.cs" Line="9" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
